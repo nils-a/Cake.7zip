@@ -1,0 +1,5 @@
+image: mcr.microsoft.com/dotnet/core/sdk:3.1
+
+tasks:
+  - init: "dotnet cake recipe.cake"
+    command: 'cd demo && dotnet cake --verbosity=diagnostic'

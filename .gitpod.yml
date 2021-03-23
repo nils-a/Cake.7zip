@@ -2,4 +2,4 @@ image: cakebuild/cake:v0.38.0-2.1-sdk
 
 tasks:
   - init: "dotnet cake recipe.cake"
-    command: 'cd demo && dotnet cake --verbosity=diagnostic'
+    command: 'cd demo && cake --verbosity=diagnostic'

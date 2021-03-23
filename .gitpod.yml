@@ -1,4 +1,4 @@
-image: cakebuild/cake:v0.38.0-2.1-sdk
+image: cakebuild/cake:v0.34.1-2.1-sdk
 
 tasks:
   - init: "dotnet cake recipe.cake"

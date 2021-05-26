@@ -1,5 +1,5 @@
-image: cakebuild/cake:v0.34.1-2.1-sdk
+image:
+  file: .gitpod/Dockerfile
 
 tasks:
   - init: "dotnet cake recipe.cake"
-    command: 'cd demo && cake --verbosity=diagnostic'
